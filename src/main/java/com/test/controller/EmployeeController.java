@@ -21,6 +21,7 @@ import com.test.service.StudentService;
 @RestController
 public class EmployeeController {
 
+	// we are creating logger object
 	private Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 
 	@Autowired
